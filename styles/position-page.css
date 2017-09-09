@@ -1,1 +1,50 @@
+.container {
+	background-color: grey;
+	padding-left: 60px;
+	padding-right: 60px;
+	position: relative;
+}
 
+.logo {
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid black;
+	max-height: 100%;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+nav li {
+    display: inline-block;
+}
+
+nav li::after{
+	content:"|";
+	margin-left: 5px;
+}
+
+.main-container{
+	position: relative;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+}
+
+.spacecat{
+	position: absolute;
+	display: block;
+	height:200px;
+	width: 200px;
+}
+
+.spacedog{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	display: block;
+	height:200px;
+	width: 200px;
+}

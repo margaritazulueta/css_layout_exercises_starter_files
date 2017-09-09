@@ -15,6 +15,7 @@
 nav ul {
 	display: inline-block;
 	list-style: none;
+	margin-left: 40px;
 }
 nav li {
     display: inline-block;
@@ -24,27 +25,33 @@ nav li::after{
 	content:"|";
 	margin-left: 5px;
 }
-
 .main-container{
 	position: relative;
 	margin: auto;
 	width: 600px;
 	height: 300px;
 	border: 10px green dotted;
+	transform: translate(10%,50%);
 }
 
 .spacecat{
-	position: absolute;
+	position: relative;
+	bottom: 100px;
+	right: 100px;
 	display: block;
 	height:200px;
 	width: 200px;
 }
 
 .spacedog{
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	position: relative;
+	bottom: 50px;
+	left: 500px;
 	display: block;
 	height:200px;
 	width: 200px;
+}
+body {
+    background-image: url("../images/outerspace_landscape.jpeg");
+    background-size: cover;
 }

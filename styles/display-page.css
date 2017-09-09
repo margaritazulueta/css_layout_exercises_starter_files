@@ -1,0 +1,48 @@
+.container-one {
+  border: solid 1px black;
+  height: 500px;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  font-size: 0;
+}
+ .top-left-box{
+ background-color: #557547;
+ width: 50%;
+ height: 40%;
+ display: inline;
+ float: left;
+  border: solid 1px black;
+}
+ .top-right-box{
+ background-color: #1659e0;
+ width: 50%;
+ height: 40%;
+ display: inline;
+ float: right;
+  border: solid 1px black;
+}
+.bottom-left-box{
+  background-color: #96999b;
+  width: 33.33%;
+  height: 60%;
+ display: inline-block;
+ float: left;
+  border: solid 1px black;
+}
+.bottom-center-box{
+ background-color: #000;
+ width: 33.33%;
+ height: 60%;
+ display: inline-block;
+  border: solid 1px black;
+  flex-grow; 1;
+}
+.bottom-right-box{
+ background-color: #f2b44b;
+ width: 33.33%;
+ height: 60%;
+ display: inline-block;
+ float: right;
+  border: solid 1px black;
+}

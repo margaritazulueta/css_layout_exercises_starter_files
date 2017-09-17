@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Analog Sea</title>
+    <meta charset="utf-8" name="description" content="Analog Sea Form">
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <!-- your styles will go in display-page.css -->
+    <link rel="stylesheet" type="text/css" href="styles/analogsea.css">
+  </head>
+  <header>
+    <div class="company-logo">
+      <img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="Analog Sea Logo">
+    </div>
+  </header>
+  <body>
+    <form class='sign-up form' action="/signup/" method='post'>
+      <h1>Sign Up</h1>
+      <fieldset name="contact-info">
+        <label for="email" required>Email</label>
+        <input placeholder='foo@bar.com' type="email" name='email' id='email'>
+        <label for="password"  required>Password</label>
+        <input placeholder='1234passw0rd' type="text" name='password' id='password'>
+         <button type='submit'>Sign Up</button>
+          <p class="forgot-password"> 
+          <a href="/forgot-password/new">Forgot password?</a>
+         </p>
+      </fieldset>
+    </form>
+  <footer role="contentinfo" class="footer">
+    <p>Already have an account? <a href="/login">Log in</a></p>
+  </footer>
+  </body>
+</html>

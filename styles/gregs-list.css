@@ -1,0 +1,43 @@
+nav {
+background-color: lightgrey;
+}
+
+form {
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.page-scroll {
+	margin-left: 100px;	
+	margin-top: 20px;
+}
+
+.nav-links {
+	display: inline;
+}
+
+input[type='submit'] {
+	background-color: white;
+	width: 25px;
+	height: 28px;
+}
+
+.type-text {
+	font-size: 20px;
+	color: lightgrey;
+}
+
+.listings {
+	margin-left: 60px;
+	margin-top: 40px;
+	color: grey;
+}
+
+li >a {
+	color: blue;
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: none;
+}
